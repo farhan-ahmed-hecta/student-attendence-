@@ -1,0 +1,19 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporary attendance logs & outputs
+attendance_records.csv
+test_attendance_export.csv
+*.jpg
+*.png
+!models/*.onnx
+
+# Keras cache
+.keras/
+
+# VS Code local state
+.vscode/*
+!.vscode/launch.json
+!.vscode/settings.json
